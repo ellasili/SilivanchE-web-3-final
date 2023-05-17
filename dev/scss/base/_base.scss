@@ -2,7 +2,15 @@
     Base
 ============= */
 
-body{ 
-    background-color: aqua;
-    
+.container{
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: 
+    ". content ." 
+    ;
 }
+
+.content {
+    grid-area:content;
+}
+
