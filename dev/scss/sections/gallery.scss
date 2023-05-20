@@ -1,3 +1,55 @@
 /* =============
 gallery
 ============= */
+
+.gallery{
+    background-color: #B1E5ED;
+    
+    h3{
+        text-align: center;
+    }
+    ul{
+        
+
+        img{
+            display:inline-block;
+            padding:20px;
+            align-self:center;
+            padding-right:10px;
+            padding-left:0px;
+
+            @include sm{
+                width:300px;
+            }
+            @include md{
+                width:300px;
+            }
+            @include lg{
+                width:300px;
+            }
+            
+        }
+    }
+    
+    button{
+        align-self:center;
+        border:1px solid #349EB5;
+        background-color: #349EB5;
+        color:white;
+        padding:20px 60px;
+        margin:30px;
+
+        &:hover{
+            background-color: #2D8CA0;
+            transition: 0.5s;
+        }
+    }
+    h1,p{
+        text-align:center;
+    }
+
+     li{
+         list-style:none;
+        text-align:center;
+    }
+}

@@ -2,5 +2,83 @@
     buynow
 ============= */
 
+.buynow{
+    background-color: #B1E5ED;
+    &.container{
 
+        h2{
+            padding:10px 60px;
+        }
+
+        a{
+            text-align:center;
+        }
+        ul{
+            padding-right:20px;
+            margin:20px;
+            @include sm{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            @include md{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+            }
+    
+            @include lg{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            
+
+            li{
+                border:1px solid#FFFFFF;
+                background-color:#FFFFFF;
+                border-radius:2px;
+                border:4px solid #FFFFFF;
+                text-align:center;
+                padding:40px 30px;
+                margin:10px;
+        
+            }
+        }
+
+    
+        span{
+            button{
+                border:1px solid white;
+                background-color: #E6E6E6;
+                color:#165563;
+                padding:20px 60px;
+
+                &:hover{
+                    background-color: #D6D4D4;
+                    transition: 0.5s;
+                }
+            }
+        }
+
+        button{
+            align-self: center;
+            border:1px solid white;
+            background-color: #54C4D6;
+            color:white;
+            padding:20px 60px;
+
+            &:hover{
+                background-color: #44A5B5;
+                transition: 0.5s;
+            }
+        }
+
+        li{
+            list-style:none;
+            text-align:center;
+            padding: 10px;
+        }
+
+    
+    }
+    
+}
 

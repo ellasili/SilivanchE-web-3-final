@@ -14,3 +14,132 @@
     grid-area:content;
 }
 
+.large-images {
+    width:100%;
+}
+
+.header{
+    background-color: #E2F6F9;
+    margin:20px;
+    
+
+    ul{
+
+        @include sm{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            @include lg{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            @include xl{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            }
+
+        img{
+            justify-self:right;
+            display:flex;
+
+            @include sm{
+                width:80px;
+            }
+
+            @include md{
+                width:80px;
+            }
+            @include lg{
+                width:80px;
+            }
+    
+        }
+
+        span{
+            img{
+                display:none;
+                justify-self:center;
+
+                @include md{
+                    display:grid
+                }
+                @include lg{
+                    display:grid;
+                }
+            }
+        }
+    
+
+        li{
+            list-style:none;
+        }
+    }
+
+}
+
+.demo{
+    a{
+        color:#165563;
+    }
+    background-color: #B1E5ED;
+    ul{
+        @include sm{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        text-align:center;
+
+        li{
+            list-style:none;
+        }
+    }
+}
+
+.follow{
+    background-color: #50C5D7;
+    padding:10px;
+    
+    p{
+        text-align:center;
+    }
+
+    li{
+        list-style:none;
+    }
+    img{
+        display:inline-block;
+        padding:10px;
+
+        &:hover{
+            border-bottom: 2px solid #D6E2EE;
+            transition: 0.5s;
+            padding:5px;
+        }
+    }
+
+
+
+}
+
+.center-image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

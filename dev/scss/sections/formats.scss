@@ -2,5 +2,100 @@
     formats
 ============= */
 
+.formats{
+    background-color: #E2F6F9;
 
+    .design{
+        h1,p{
+            text-align: left;
+            justify-items: left;
+        }
+    }
+
+    .click-print{
+        
+        h1,p{
+            @include sm{
+                text-align:center;
+                justify-items: center;
+            }
+            @include md{
+                text-align:right;
+                justify-items:right;
+                margin:30px auto;
+            }
+        }
+
+        button{
+            margin:0px auto;
+        }
+    }
+
+    ul{
+        padding-right:20px;
+        display:flex;
+
+        @include sm{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        img{ 
+            padding:20px;
+            align-self: center; 
+            display:flex;
+            width:200px;
+            
+            @include sm{
+                width:300px;
+            }
+            @include md{
+                width:400px;
+            }
+            @include lg{
+                width:400px;
+            }
+        
+        }
+
+        li{
+            list-style:none;
+        
+        }
+
+
+    }
+
+    button{
+
+        padding:30px;
+        border:1px solid white;
+        background-color: #349EB5;
+        color:white;
+        padding:20px 60px;
+
+        &:hover{
+            background-color: #2D8CA0;
+            transition: 0.5s;
+        }
+    }
+    
+    h2,p{
+        text-align:center;
+    }
+   
+
+
+
+   
+}
 

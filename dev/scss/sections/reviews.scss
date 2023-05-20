@@ -2,5 +2,81 @@
     reviews
 ============= */
 
+.reviews{
+    background-color: #B1E5ED;
+    
+    h3,p{ 
+        text-align:center;
+        color:#FFFFFF;
 
+    }
+
+    img{
+        justify-self:center;
+        
+        @include sm{
+            padding-left:70px;
+        }
+
+        @include md{
+            padding-left:40px;
+        }
+
+        @include lg{
+            padding-left:30px;
+        }
+
+        @include xl{
+            padding-left:60px;
+        }
+    }
+
+    a{
+       color: #165563;
+    }
+
+    
+    ul{
+        padding-right:20px;
+        @include sm{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+
+
+        li{
+            list-style:none;
+            border:1px solid#B1E5ED;
+            background-color:#3495B5;
+            border-radius:2px;
+            border:2px solid #B1E5ED;
+            padding:30px 30px;
+            margin:20px;
+
+            a{
+                color: #FFFFFF;
+            }
+
+    
+
+        
+        }
+
+       
+
+
+        
+    }
+
+}
 
