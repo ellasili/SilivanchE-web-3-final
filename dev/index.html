@@ -14,27 +14,53 @@
 
   <body>
     <!--header-->
-    <section class="header">
+    <header class="header-container">
+      <div class="content">
+        <div class="logo">
+            <img src="img/newheaderlogo.svg" alt="logo">
+        </div>
+            
+        <!--Mobile nav icon, wont displau on desktop and up-->
+        <div class="burger-container">
+          <button id="burger-btn">
+            <img src="img/hamburger.svg" alt="hamburger">
+          </button>
+        </div>
+        <!--end mobile nav icon-->
+
+         <!--menu alters between mobile/tablet and desktop-->
+        <nav id="main-menu">
+          <div class="hide-for-lg">
+              <button id="close-btn">
+                <i class="fa-solid fa-xmark-large"></i>
+              </button>
+          </div>
+          <ul>
+            <li><a href="html/product.html">product</a></li>
+            <li><a href="html/reviews.html">reviews</a></li>
+            <li><a href="html/gallery.html">gallery</a></li>
+            <li><a href="html/profile.html">profile</a></li>
+          </ul>
+        </nav>
+
+  
+    
+      </div>
+    </header>
+
+   <!--heroimage-->
+
+    <section>
       <div>
-        <ul>
-          <li>
-            <span><img src="img/hamburger.svg" alt="hamburger"></span>
-          </li>
-          <li>
-            <img src="img/logo.svg" alt="logo">
-          </li>
-          <li>
-            <span><img src="img/profile.svg" alt="profile"></span>
-          </li>
-        </ul>
+        <img class="large-images" src="img/heroimage.svg" alt="heroimage">
+        <div class="overlay">
+          <h1>Glowforge 3D Laser Printer</h1>
+          <h2>Made for making</h2>
+          <button>buy glowforge</button>
+        </div>
       </div>
     </section>
 
-    <!--header-->
-
-    <section>
-     <img class="large-images" src="img/heroimage.svg" alt="heroimage">
-    </section>
     <!--gallery-->
 
   
@@ -56,12 +82,12 @@
             <span><img src="img/large-image2.svg" alt="largeimage2"></span>
           </li>
           <li class="align-right">
-            <span><p>High-resolution 3D engrave</p></span>
-            <span><p>Auto settings</p></span>
-            <span><p>Live camera preview</p></span>
-            <span><p>Laser tube power</p></span>
-            <span><p>Enhanced cooling for all-day use</p></span>
-            <span><p>Giant sized prints with Passthrough</p></span>
+            <p>High-resolution 3D engrave</p>
+            <p>Auto settings</p>
+            <p>Live camera preview</p>
+            <p>Laser tube power</p>
+            <p>Enhanced cooling for all-day use</p>
+            <p>Giant sized prints with Passthrough</p>
           </li>
   
         </ul>
@@ -208,19 +234,19 @@
         <div>
           <ul>
             <li>
-              <h3>Product</h3><img src="img/arrow1.svg" alt="arrow">
+              <h3>Product</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
               <p>Home</p>
               <p>Our Products</p>
               <p>Educators</p>
             </li>
             <li>
-              <h3>Company</h3><img src="img/arrow1.svg" alt="arrow">
+              <h3>Company</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
               <p>About Us</p>
               <p>Careers</p>
               <p>Contact</p>
             </li>
             <li>
-              <h3>Contact</h3><img src="img/arrow1.svg" alt="arrow">
+              <h3>Contact</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
               <p>hello@glowforge.com</p>
               <p>1938 Occidental Ave S Suite C</p>
               <p>Seattle, WA 98134</p>

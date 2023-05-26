@@ -38,6 +38,7 @@ gallery
         color:white;
         padding:20px 60px;
         margin:30px;
+        border-radius: 30px;
 
         &:hover{
             background-color: #2D8CA0;
@@ -49,7 +50,7 @@ gallery
     }
 
      li{
-         list-style:none;
+        list-style:none;
         text-align:center;
     }
 }

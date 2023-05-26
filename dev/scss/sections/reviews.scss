@@ -11,25 +11,7 @@
 
     }
 
-    img{
-        justify-self:center;
-        
-        @include sm{
-            padding-left:70px;
-        }
 
-        @include md{
-            padding-left:40px;
-        }
-
-        @include lg{
-            padding-left:30px;
-        }
-
-        @include xl{
-            padding-left:60px;
-        }
-    }
 
     a{
        color: #165563;
@@ -37,6 +19,7 @@
 
     
     ul{
+        text-align:center;
         padding-right:20px;
         @include sm{
             display: grid;
@@ -62,6 +45,8 @@
             border:2px solid #B1E5ED;
             padding:30px 30px;
             margin:20px;
+            border-radius: 30px;
+
 
             a{
                 color: #FFFFFF;

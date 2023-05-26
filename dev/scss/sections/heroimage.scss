@@ -3,10 +3,13 @@
 ============= */
  
 .heroimage{
+    padding-left:20px;
+    padding-right:20px;
     background: #B1E5ED;
 
     li{
         list-style: none;
+        padding-right:20px;
     }
 
 
@@ -19,16 +22,12 @@
             padding-left:30px;
         }
 
-        span{
-            p{
-                padding-top:10px;
-                padding-bottom:10px;
-            }
-        }
+    
 
         p{
             padding-left:5px;
             padding-right:20px;
+            padding-bottom:3px;
         }
 
         @include md{
@@ -51,25 +50,24 @@
         span{
             img{
                 padding-left:20px;
-                padding-left:20px;
+                padding-right:20px;
                 margin:10px;
                 padding:10px;
+                width:100%;
+                display:flex;
 
                 @include md{
                     display:flex;
-                    width:100px;
-                    width:500px;
+        
                 }
                 @include lg{
                     display:flex;
-                    width:100px;
-                    width:600px;
+
                 }
 
                 @include xl{
                     display:flex;
-                    width:100px;
-                    width:600px;
+    
                 }
             }
         }
@@ -82,4 +80,23 @@
 .align-right{
     justify-self: right;
     text-align:right;
+    
+}
+
+.overlay{
+    padding-left:20px;
+    padding-right:20px;
+    button{
+        border:1px solid #349EB5;
+        background-color: #349EB5;
+        color:white;
+        padding:20px 90px;
+        margin:30px;
+        border-radius: 30px;
+
+        &:hover{
+            background-color: #2D8CA0;
+            transition: 0.5s;
+        } 
+    }
 }
