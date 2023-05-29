@@ -11,22 +11,42 @@
 
   <body>
 
-    <section class="header">
-      <div>
-        <ul>
-          <li>
-            <span><img src="img/hamburger.svg" alt="hamburger"></span>
-          </li>
-          <li>
-            <img src="img/logo.svg" alt="logo">
-          </li>
-          <li>
-            <span><img src="img/profile.svg" alt="profile"></span>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <!--header-->
+    <header class="header-container">
+      <div class="content">
+        <div class="logo">
+            <img src="../img/newheaderlogo.svg" alt="logo">
+        </div>
+            
+        <!--Mobile nav icon, wont displau on desktop and up-->
+        <div class="burger-container">
+          <button id="burger-btn">
+            <img src="../img/hamburger.svg" alt="hamburger">
+          </button>
+        </div>
+        <!--end mobile nav icon-->
+
+         <!--menu alters between mobile/tablet and desktop-->
+        <nav id="main-menu">
+          <div class="hide-for-lg">
+              <button id="close-btn">
+                <i class="fa-solid fa-xmark-large"></i>
+              </button>
+          </div>
+          <ul>
+            <li><a href="html/product.html">product</a></li>
+            <li><a href="html/reviews.html">reviews</a></li>
+            <li><a href="html/gallery.html">gallery</a></li>
+            <li><a href="html/profile.html">profile</a></li>
+          </ul>
+        </nav>
+
+  
     
+      </div>
+    </header>
+
+
     <section class="checkout container">
       <div class="content">
         <ul>

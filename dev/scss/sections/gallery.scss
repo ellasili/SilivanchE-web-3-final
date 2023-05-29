@@ -53,4 +53,18 @@ gallery
         list-style:none;
         text-align:center;
     }
+
+    span{
+        button{
+            border:1px solid white;
+            background-color: white;
+            color:#165563;
+            padding:20px 60px;
+
+            &:hover{
+                background-color: #F0F0F0;
+                transition: 0.5s;
+            }
+        }
+    }
 }
