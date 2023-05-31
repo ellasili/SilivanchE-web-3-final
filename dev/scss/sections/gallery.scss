@@ -28,6 +28,9 @@ gallery
                 width:300px;
             }
             
+            &:hover{
+                transition: 1s;
+            }
         }
     }
     
@@ -48,6 +51,8 @@ gallery
     h1,p{
         text-align:center;
     }
+
+   
 
      li{
         list-style:none;

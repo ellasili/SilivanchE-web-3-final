@@ -639,6 +639,15 @@ ul li {
   background-color: purple;
 }
 
+.dream {
+  background-color: #B1E5ED;
+}
+.dream h1, .dream p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /* =============
     Typography
 ============= */
@@ -910,6 +919,16 @@ nav ul li:first-child {
   transition: 0.5s;
 }
 
+.background-hero {
+  background-image: url("../img/heroimage.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@inlude lg {}
+.background-hero h1, .background-hero h2 {
+  color: #FFFFFF;
+}
+
 /* =============
 gallery
 ============= */
@@ -940,6 +959,9 @@ gallery
   .gallery ul img {
     width: 300px;
   }
+}
+.gallery ul img:hover {
+  transition: 1s;
 }
 .gallery button {
   align-self: center;

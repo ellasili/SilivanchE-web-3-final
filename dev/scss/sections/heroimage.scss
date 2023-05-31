@@ -100,3 +100,15 @@
         } 
     }
 }
+
+.background-hero{
+    background-image:url('../img/heroimage.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @inlude lg{}
+    
+    h1,h2{
+        color:#FFFFFF;
+    }
+}
