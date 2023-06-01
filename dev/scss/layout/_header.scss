@@ -30,6 +30,27 @@
             color: $black;
             font-size: 40px;
             padding-left:20px;
+
+            display:none;
+
+            @include md{
+                display:block;
+            }
+            @include lg{
+                display: block;
+            }
+        }
+
+        .logo-2{
+            padding-left:20px;
+            display:block;
+
+            @include md{
+                display:none;
+            }
+            @include lg{
+                display:none;
+            }
         }
 
         .burger-container{
