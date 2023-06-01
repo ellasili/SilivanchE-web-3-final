@@ -534,6 +534,7 @@ ul li {
 .checkout ul p {
   text-align: left;
   color: #165563;
+  font-size: 14px;
 }
 .checkout ul input {
   display: flex;
@@ -543,6 +544,7 @@ ul li {
   color: #6D6D6D;
   margin-bottom: 15px;
   text-align: left;
+  font-size: 16px;
   border-radius: 30px;
 }
 @media (min-width: 768px) {
@@ -641,11 +643,18 @@ ul li {
 
 .dream {
   background-color: #B1E5ED;
+  color: #165563;
 }
 .dream h1, .dream p {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.left-align {
+  text-align: left;
+  align-self: left;
+  justify-self: left;
 }
 
 /* =============
@@ -697,13 +706,13 @@ textarea {
 ============= */
 nav {
   display: none;
-  background-color: #000;
+  background-color: #349EB5;
   height: 100vh;
   padding: 16px;
   position: fixed;
   right: 0;
   top: 0;
-  width: 50vw;
+  width: 40vw;
 }
 @media (min-width: 992px) {
   nav {
@@ -722,6 +731,7 @@ nav div {
 nav div button {
   background-color: #E2F6F9;
   border: none;
+  width: 20px;
   color: #349EB5;
 }
 nav div button:hover {
@@ -759,6 +769,7 @@ nav ul li a:visited {
   color: #349EB5;
   font-size: 20px;
   font-weight: 300;
+  padding-right: 10px;
   text-decoration: none;
   transition: 0.25s;
 }
@@ -801,7 +812,7 @@ nav ul li:first-child {
 .header-container .content .logo {
   color: #000;
   font-size: 40px;
-  padding-left: 20px;
+  padding-left: 30px;
   display: none;
 }
 @media (min-width: 768px) {
@@ -815,7 +826,7 @@ nav ul li:first-child {
   }
 }
 .header-container .content .logo-2 {
-  padding-left: 20px;
+  padding-left: 30px;
   display: block;
 }
 @media (min-width: 768px) {
@@ -932,13 +943,43 @@ nav ul li:first-child {
   padding-right: 20px;
   display: flex;
 }
+.overlay h1 {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  .overlay h1 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 992px) {
+  .overlay h1 {
+    font-size: 40px;
+  }
+}
+.overlay h2 {
+  font-size: 16px;
+  font-weight: 300;
+}
 .overlay button {
   border: 1px solid #349EB5;
   background-color: #349EB5;
   color: white;
-  padding: 20px 90px;
+  padding: 5px 60px;
   margin: 30px;
   border-radius: 30px;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  .overlay button {
+    font-size: 20px;
+    padding: 10px 70px;
+  }
+}
+@media (min-width: 992px) {
+  .overlay button {
+    padding: 30px 140px;
+    font-size: 36px;
+  }
 }
 .overlay button:hover {
   background-color: #2D8CA0;
@@ -951,6 +992,16 @@ nav ul li:first-child {
   background-repeat: no-repeat;
   padding: 20px;
 }
+@media (min-width: 576px) {
+  .background-hero {
+    height: 160px;
+  }
+}
+@media (min-width: 768px) {
+  .background-hero {
+    height: 500px;
+  }
+}
 @media (min-width: 992px) {
   .background-hero {
     height: 600px;
@@ -958,6 +1009,12 @@ nav ul li:first-child {
 }
 .background-hero h1, .background-hero h2 {
   color: #FFFFFF;
+}
+
+.buy-button {
+  flex-grow: 2;
+  display: flex;
+  justify-content: end;
 }
 
 /* =============
@@ -968,6 +1025,7 @@ gallery
 }
 .gallery h3 {
   text-align: center;
+  color: #165563;
 }
 .gallery ul img {
   display: inline-block;
@@ -1238,6 +1296,7 @@ gallery
 .footer {
   text-align: center;
   background-color: #50C5D7;
+  color: #165563;
 }
 .footer li {
   list-style: none;
@@ -1302,6 +1361,7 @@ gallery
 }
 
 .glowforge.container {
+  color: #165563;
   background-color: #50C5D7;
   text-align: left;
   justify-self: left;

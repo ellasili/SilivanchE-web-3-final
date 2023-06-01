@@ -4,13 +4,13 @@
 
 nav{
     display:none;
-    background-color:$black;
+    background-color:#349EB5;
     height: 100vh;
     padding: 16px;
     position:fixed;
     right: 0;
     top: 0;
-    width: 50vw;
+    width: 40vw;
 
     @include lg{
         background-color:transparent;
@@ -28,6 +28,7 @@ nav{
         button{
             background-color:#E2F6F9;
             border:none;
+            width:20px;
             color:#349EB5;
 
             &:hover{
@@ -67,6 +68,7 @@ nav{
                 color:#349EB5;
                 font-size:20px;
                 font-weight:300;
+                padding-right:10px;
                 text-decoration:none;
                 transition:0.25s;
 

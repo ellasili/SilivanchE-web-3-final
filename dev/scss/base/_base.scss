@@ -222,6 +222,7 @@ ul{
         p{
             text-align:left;
             color:#165563;
+            font-size:14px;
         }
 
         input{
@@ -232,6 +233,7 @@ ul{
             color:#6D6D6D;
             margin-bottom:15px;
             text-align:left;
+            font-size:16px;
 
             @include md{
                 padding:10px 150px;
@@ -340,6 +342,7 @@ ul{
 
 .dream{
     background-color:#B1E5ED;
+    color:#165563;
     h1,p{
         text-align:center;
         padding-left:20px;
@@ -348,3 +351,8 @@ ul{
 }
 
 
+.left-align{
+    text-align:left;
+    align-self:left;
+    justify-self:left;
+}

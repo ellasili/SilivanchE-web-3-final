@@ -6,6 +6,7 @@
 .footer{
     text-align:center;
     background-color: #50C5D7;
+    color:#165563;
 
     li{
         list-style:none;
@@ -68,6 +69,7 @@
 
 .glowforge{
     &.container{
+        color:#165563;
         background-color: #50C5D7;
         text-align:left;
         justify-self:left;
