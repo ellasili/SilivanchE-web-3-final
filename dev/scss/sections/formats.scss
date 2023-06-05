@@ -11,9 +11,15 @@
         text-align:center;
         padding-bottom:20px;
         h1,p{
-            
             text-align:center;
             justify-items:center;
+
+            @include md{
+                text-align:left;
+            }
+            @include lg{
+                text-align:left;
+            }
 
         }
 
@@ -29,6 +35,13 @@
         h1,p{
             text-align:center;
             justify-items:center;
+
+            @include md{
+                text-align:right;
+            }
+            @include lg{
+                text-align:right;
+            }
 
         }
 
