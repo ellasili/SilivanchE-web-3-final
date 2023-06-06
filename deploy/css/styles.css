@@ -456,6 +456,7 @@ ul li {
 .follow {
   background-color: #50C5D7;
   padding: 10px;
+  color: #165563;
 }
 .follow p {
   text-align: center;
@@ -584,6 +585,7 @@ ul li {
   margin: 20px;
 }
 .summary h3 {
+  color: #165563;
   padding-left: 20px;
   margin: 20px;
 }
@@ -776,7 +778,7 @@ nav ul li a:visited {
 nav ul li a:link:hover, nav ul li a:link:active,
 nav ul li a:visited:hover,
 nav ul li a:visited:active {
-  color: #349EB5;
+  color: #FFFFFF;
 }
 nav ul li:first-child {
   border: none;
