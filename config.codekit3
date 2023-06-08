@@ -40,7 +40,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/html\/Checkout.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/deploy\/html\/galleri.html" : {
       "cB" : 0,
@@ -499,8 +499,8 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/Checkout.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/html\/Checkout.html",
+      "oF" : 2
     },
     "\/dev\/index.html" : {
       "cB" : 0,
@@ -781,8 +781,8 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/Thankyou.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/html\/Thankyou.html",
+      "oF" : 2
     },
     "\/README 2.md" : {
       "cB" : 0,

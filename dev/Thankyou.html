@@ -39,10 +39,10 @@
           </button>
         </div>
         <ul>
-          <li><a href="html/product.html">product</a></li>
-          <li><a href="html/reviews.html">reviews</a></li>
-          <li><a href="html/gallery.html">gallery</a></li>
-          <li><a href="html/profile.html">profile</a></li>
+          <li><a href="html/Checkout.html">product</a></li>
+            <li><a href="html/Thankyou.html">reviews</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">profile</a></li>
         </ul>
       </nav>
 
@@ -51,8 +51,8 @@
     </div>
   </header>
 
-    <section class="journey container">
-      <div class-="content">
+    <section class="journey">
+      <div>
         <h1>Let the Glowforge Journey Begin!</h1>
         <h2>Order Confirmation</h2>
       </div>
@@ -62,20 +62,54 @@
     <section class="Thank-you container">
       <div class="content">
         <ul>
-          <li>
-            <p>Order Summary</p>
-            <p class="border-bottom"><img src="../img/summary1.svg" alt="summary1">Glowforge Pro</p>
-            <p class="border-bottom"><img src="../img/summary2.svg" alt="summary2">$150 of Premium Proofgrade Materials</p>
-            <p class="border-bottom"><img src="../img/summary3.svg" alt="summary3">Glowforge Accessory Kit</p>
-            <p class="border-bottom"><img src="../img/summary4.svg" alt="summary4">Glowforge Air Filter </p>
-            <h3>Total:USD $8,290.00</h3>
+          <li class="summary">
+            <div class="row">
+              <img src="../img/summary1.svg" alt="summary1">
+              <div class="border-bottom quantity">
+                <p>Glowforge Pro</p>
+                <button>1</button>
+              </div>
+              <span><p>$6,995.00</p></span>
+              <img src="../img/summary2.svg" alt="summary2">
+              <div class="border-bottom quantity">
+                <p>$150 of Premium Proofgrade Materials</p>
+                <button>1</button>
+              </div>
+              <span><p>Free</p></span>
+              <img src="../img/summary3.svg" alt="summary3">
+              <div class="border-bottom quantity">
+                <p>Glowforge Accessorie Kit</p>
+                <button>1</button>
+              </div>
+              <span><p>free</p></span>
+              <img src="../img/summary4.svg" alt="summary4">
+              <div class="border-bottom quantity">
+                <p>Glowforge Air Filter</p>
+                <button>1</button>
+              </div>
+              <span><p>$1,295</p></span>
+            </div>
+            
+            <div class="totals">
+              <div class="shipping">
+                <p>Subtotal</p>
+                <p class="border-bottom">Shipping</p>
+                <h3>Total</h3>
+              </div>
+              <div class="numbers">
+                <p>$8,290.00</p>
+                <p class="border-bottom">$39.00</p>
+                <h3>$8,290.00</h3>
+              </div>
+            </div>
+
           </li>
         </ul>
       </div>
     </section>
 
 
-      <section class="follow container">
+    <section class="follow container">
         <div class="content">
           <p>Join the Glowforge Community</p>
           <ul>
@@ -87,9 +121,9 @@
             </li>
           </ul>
         </div>
-      </section>
+    </section>
 
-      <section class="footer container">
+    <section class="footer container">
         <div class="content">
           <div>
             <ul>
@@ -114,20 +148,20 @@
             </ul>
           </div>
         </div>
-      </section>
-      <section class="glowforge container">
+    </section>
+    <section class="glowforge container">
         <div class="content">
           <div>
             <h3>glowforge</h3>
           </div>
         </div>
-      </section>
+    </section>
 
 
 
 
 
 
-    <script src="../js/scripts-min.js"></script>
+      <script src="../js/scripts-min.js"></script>
   </body>
 </html>

@@ -37,10 +37,10 @@
             </button>
           </div>
           <ul>
-            <li><a href="html/product.html">product</a></li>
-            <li><a href="html/reviews.html">reviews</a></li>
-            <li><a href="html/gallery.html">gallery</a></li>
-            <li><a href="html/profile.html">profile</a></li>
+            <li><a href="html/Checkout.html">product</a></li>
+            <li><a href="html/Thankyou.html">reviews</a></li>
+            <li><a href="#">gallery</a></li>
+            <li><a href="#">profile</a></li>
           </ul>
         </nav>
 
@@ -49,6 +49,9 @@
       </div>
     </header>
     
+
+
+
     <section class="checkout container">
       <div class="content">
         <ul>
@@ -70,17 +73,52 @@
             <form action="#"> 
               <input type="text" placeholder="Address Line 2">
             </form>
-            <button>confirm order</button>
+            <span><button>confirm order</button></span>
           </li>
+
+
           <li class="summary">
-            <p>Order Summary</p>
-            <p class="border-bottom"><img src="../img/summary1.svg" alt="summary1">Glowforge Pro</p>
-            <p class="border-bottom"><img src="../img/summary2.svg" alt="summary2">$150 of Premium Proofgrade Materials</p>
-            <p class="border-bottom"><img src="../img/summary3.svg" alt="summary3">Glowforge Accessory Kit</p>
-            <p class="border-bottom"><img src="../img/summary4.svg" alt="summary4">Glowforge Air Filter</p>
-            <p class="subtotal">Subtotal:$8,290.00</p>
-            <p class="border-bottom subtotal">Shipping:$39.00</p>
-            <h3>Total:USD $8,290.00</h3>
+            <div class="row">
+              <img src="../img/summary1.svg" alt="summary1">
+              <div class="border-bottom quantity">
+                <p>Glowforge Pro</p>
+                <button>1</button>
+              </div>
+              <span><p>$6,995.00</p></span>
+              <img src="../img/summary2.svg" alt="summary2">
+              <div class="border-bottom quantity">
+                <p>$150 of Premium Proofgrade Materials</p>
+                <button>1</button>
+              </div>
+              <span><p>Free</p></span>
+              <img src="../img/summary3.svg" alt="summary3">
+              <div class="border-bottom quantity">
+                <p>Glowforge Accessorie Kit</p>
+                <button>1</button>
+              </div>
+              <span><p>free</p></span>
+              <img src="../img/summary4.svg" alt="summary4">
+              <div class="border-bottom quantity">
+                <p>Glowforge Air Filter</p>
+                <button>1</button>
+              </div>
+              <span><p>$1,295</p></span>
+            </div>
+            
+            <div class="totals">
+              <div class="shipping">
+                <p>Subtotal</p>
+                <p class="border-bottom">Shipping</p>
+                <h3>Total</h3>
+              </div>
+              <div class="numbers">
+                <p>$8,290.00</p>
+                <p class="border-bottom">$39.00</p>
+                <h3>$8,290.00</h3>
+              </div>
+            </div>
+        
+
           </li>
         </ul>
       </div>
@@ -113,19 +151,19 @@
         <div>
           <ul>
             <li>
-              <h3>Product</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
+              <h3>Product</h3><img class="arrow-gone" src="../img/arrow1.svg" alt="arrow">
               <p>Home</p>
               <p>Our Products</p>
               <p>Educators</p>
             </li>
             <li>
-              <h3>Company</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
+              <h3>Company</h3><img class="arrow-gone" src="../img/arrow1.svg" alt="arrow">
               <p>About Us</p>
               <p>Careers</p>
               <p>Contact</p>
             </li>
             <li>
-              <h3>Contact</h3><img class="arrow-gone" src="img/arrow1.svg" alt="arrow">
+              <h3>Contact</h3><img class="arrow-gone" src="../img/arrow1.svg" alt="arrow">
               <p>hello@glowforge.com</p>
               <p>1938 Occidental Ave S Suite C</p>
               <p>Seattle, WA 98134</p>
@@ -148,3 +186,6 @@
     <script src="../js/scripts-min.js"></script>
   </body>
 </html>
+
+<!--margin, margin left on li and ul on checkout mobile
+  on desktop and tablet 
