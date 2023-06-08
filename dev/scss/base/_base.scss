@@ -263,13 +263,15 @@ ul{
 
 .thank-you{
     &.container{
-    background-color: #B1E5ED;
+        background-color: #B1E5ED;
+    }
 
     span{
         p{
             text-align:center;
         }
     }
+    
     img{
         padding-right:30px;
     }
@@ -290,24 +292,24 @@ ul{
     }
 
     ul{
+        padding:400px;
         margin-left:0;
         margin:20px;
         list-style:none;
         border-radius: 30px;
         border-width: 80%;
     }
-    }
 }
 
 .summary{ 
-    margin-right:20px;
+    
+    margin:20px;
     padding:20px;
     background-color:#FFFFFF;
 
-  
+    
     img{
         width:50%;
-        margin:30px;
     }
 
     h3,p,h2,h1{
@@ -315,10 +317,17 @@ ul{
     }
 
     border-radius: 30px;
-    border-width: 80%;
 
     .row{
 
+        button{
+            img{
+                width:10px;
+                margin:5px;
+                padding-left:5px;
+
+            }
+        }
         div{
             padding:5px;
             border-bottom: 1px solid #D9D9D9
@@ -327,15 +336,6 @@ ul{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: none;
-
-        span{
-            text-align:right;
-            margin-top:35px;
-            p{
-                font-weight:100;
-            }
-
-        }
     }
 
 
@@ -357,6 +357,16 @@ ul{
     
     h1,h2{
         color:#165563
+    }
+
+    h1{
+
+        font-size:30px;
+    }
+
+    h2{
+        font-size:20px;
+        font-weight:100;
     }
 }
 
@@ -437,4 +447,46 @@ ul{
 .outside-summary{
     text-align:center;
     padding-left:180px;
+}
+
+.cost{
+    text-align:right;
+    margin-top:50px;
+    font-weight:100;
+}
+
+.track{
+    background-color:#B1E5ED;
+    text-align:center;
+    font-weight:800;
+
+    button{
+        margin:20px;
+        border-radius: 30px;
+        border:1px solid #349EB5;
+        background-color: #349EB5;
+        color:white;
+        padding:20px 60px;
+
+            &:hover{
+                background-color: #44A5B5;
+                transition: 0.5s;
+            }
+
+    }
+
+    span{
+        button{
+            border:1px solid white;
+            background-color: #FFFFFF;
+            color:#165563;
+            padding:20px 60px;
+            margin-bottom:130px;
+    
+            &:hover{
+                background-color: #F1F1F1;
+                transition: 0.5s;
+            }
+        }
+    }
 }

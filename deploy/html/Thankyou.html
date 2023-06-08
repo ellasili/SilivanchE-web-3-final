@@ -15,41 +15,39 @@
 
    <!--header-->
    <header class="header-container">
-    <div class="content">
-      <div class="logo">
-        <img src="../img/newheaderlogo.svg" alt="logo">
-      </div>
-      <div class="logo-2">
-        <img src="../img/logo.svg" alt="logo">
-      </div>
-          
-      <!--Mobile nav icon, wont display on desktop and up-->
-      <div class="burger-container">
-        <button id="burger-btn">
-          <img src="../img/hamburger.svg" alt="hamburger">
-        </button>
-      </div>
-      <!--end mobile nav icon-->
-
-       <!--menu alters between mobile/tablet and desktop-->
-      <nav id="main-menu">
-        <div class="hide-for-lg">
-          <button id="close-btn">
-            <i class="fa-solid fa-xmark-large"></i>
+      <div class="content">
+        <div class="logo">
+          <img src="../img/newheaderlogo.svg" alt="logo">
+        </div>
+        <div class="logo-2">
+          <img src="../img/logo.svg" alt="logo">
+        </div>
+              
+          <!--Mobile nav icon, wont display on desktop and up-->
+        <div class="burger-container">
+          <button id="burger-btn">
+            <img src="../img/hamburger.svg" alt="hamburger">
           </button>
         </div>
-        <ul>
-          <li><a href="html/Checkout.html">product</a></li>
-            <li><a href="html/Thankyou.html">reviews</a></li>
-            <li><a href="#">gallery</a></li>
-            <li><a href="#">profile</a></li>
-        </ul>
-      </nav>
+          <!--end mobile nav icon-->
 
+          <!--menu alters between mobile/tablet and desktop-->
+        <nav id="main-menu">
+          <div class="hide-for-lg">
+            <button id="close-btn">
+              <i class="fa-solid fa-xmark-large"></i>
+            </button>
+          </div>
+          <ul>
+              <li><a href="html/Checkout.html">product</a></li>
+              <li><a href="html/Thankyou.html">reviews</a></li>
+              <li><a href="#">gallery</a></li>
+              <li><a href="#">profile</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  
-    </div>
-  </header>
 
     <section class="journey">
       <div>
@@ -61,33 +59,33 @@
 
     <section class="Thank-you container">
       <div class="content">
-        <ul>
-          <li class="summary">
+        <ul class="summary">
+          <li>
             <div class="row">
               <img src="../img/summary1.svg" alt="summary1">
               <div class="border-bottom quantity">
                 <p>Glowforge Pro</p>
-                <button>1</button>
+                <button>1<img src="../img/arrow1.svg" alt="arrow"></button>
               </div>
-              <span><p>$6,995.00</p></span>
+              <p class="cost">$6,995.00</p>
               <img src="../img/summary2.svg" alt="summary2">
               <div class="border-bottom quantity">
                 <p>$150 of Premium Proofgrade Materials</p>
-                <button>1</button>
+                <button>1<img src="../img/arrow1.svg" alt="arrow"></button>
               </div>
-              <span><p>Free</p></span>
+              <p class="cost">Free</p>
               <img src="../img/summary3.svg" alt="summary3">
               <div class="border-bottom quantity">
                 <p>Glowforge Accessorie Kit</p>
-                <button>1</button>
+                <button>1<img src="../img/arrow1.svg" alt="arrow"></button>
               </div>
-              <span><p>free</p></span>
+              <p class="cost">Free</p>
               <img src="../img/summary4.svg" alt="summary4">
               <div class="border-bottom quantity">
                 <p>Glowforge Air Filter</p>
-                <button>1</button>
+                <button>1<img src="../img/arrow1.svg" alt="arrow"></button>
               </div>
-              <span><p>$1,295</p></span>
+              <p class="cost">$1,295</p>
             </div>
             
             <div class="totals">
@@ -103,8 +101,16 @@
               </div>
             </div>
 
+  
+
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="track">
+      <div>
+        <button>Keep Shopping</button>
+        <span><button>Track Order</button></span>
       </div>
     </section>
 

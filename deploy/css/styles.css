@@ -567,26 +567,27 @@ ul li {
 .thank-you.container {
   background-color: #B1E5ED;
 }
-.thank-you.container span p {
+.thank-you span p {
   text-align: center;
 }
-.thank-you.container img {
+.thank-you img {
   padding-right: 30px;
 }
-.thank-you.container p {
+.thank-you p {
   color: #165563;
   padding-left: 20px;
   padding-bottom: 20px;
   margin: 20px;
   padding-top: 15px;
 }
-.thank-you.container h3 {
+.thank-you h3 {
   color: #165563;
   padding-left: 20px;
   margin: 20px;
   padding-bottom: 20px;
 }
-.thank-you.container ul {
+.thank-you ul {
+  padding: 400px;
   margin-left: 0;
   margin: 20px;
   list-style: none;
@@ -595,15 +596,13 @@ ul li {
 }
 
 .summary {
-  margin-right: 20px;
+  margin: 20px;
   padding: 20px;
   background-color: #FFFFFF;
   border-radius: 30px;
-  border-width: 80%;
 }
 .summary img {
   width: 50%;
-  margin: 30px;
 }
 .summary h3, .summary p, .summary h2, .summary h1 {
   color: #165563;
@@ -613,16 +612,14 @@ ul li {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: none;
 }
+.summary .row button img {
+  width: 10px;
+  margin: 5px;
+  padding-left: 5px;
+}
 .summary .row div {
   padding: 5px;
   border-bottom: 1px solid #D9D9D9;
-}
-.summary .row span {
-  text-align: right;
-  margin-top: 35px;
-}
-.summary .row span p {
-  font-weight: 100;
 }
 
 .journey {
@@ -637,6 +634,13 @@ ul li {
 }
 .journey h1, .journey h2 {
   color: #165563;
+}
+.journey h1 {
+  font-size: 30px;
+}
+.journey h2 {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .product {
@@ -707,6 +711,41 @@ ul li {
 .outside-summary {
   text-align: center;
   padding-left: 180px;
+}
+
+.cost {
+  text-align: right;
+  margin-top: 50px;
+  font-weight: 100;
+}
+
+.track {
+  background-color: #B1E5ED;
+  text-align: center;
+  font-weight: 800;
+}
+.track button {
+  margin: 20px;
+  border-radius: 30px;
+  border: 1px solid #349EB5;
+  background-color: #349EB5;
+  color: white;
+  padding: 20px 60px;
+}
+.track button:hover {
+  background-color: #44A5B5;
+  transition: 0.5s;
+}
+.track span button {
+  border: 1px solid white;
+  background-color: #FFFFFF;
+  color: #165563;
+  padding: 20px 60px;
+  margin-bottom: 130px;
+}
+.track span button:hover {
+  background-color: #F1F1F1;
+  transition: 0.5s;
 }
 
 /* =============
@@ -903,7 +942,7 @@ nav ul li:first-child {
   }
 }
 .header-container .content .burger-container img {
-  width: 100px;
+  width: 60px;
 }
 .header-container .content .burger-container button {
   border: none;
@@ -1292,7 +1331,7 @@ gallery
   padding: 20px 60px;
 }
 .buynow.container span button:hover {
-  background-color: #D6D4D4;
+  background-color: #F1F1F1;
   transition: 0.5s;
 }
 .buynow.container button {
