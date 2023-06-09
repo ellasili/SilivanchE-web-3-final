@@ -167,9 +167,8 @@ ul{
 }
 
 .border-bottom{
-    border-bottom: 2px solid #979797;
-    width:100%;
-    margin: 30px 0 25px 0;
+    border-bottom: 1px solid #D9D9D9;
+    width:80%;
 }
 
 .checkout{
@@ -195,6 +194,7 @@ ul{
 
 
         li{
+            margin-top:20px;
             list-style:none;
     
         }
@@ -272,9 +272,6 @@ ul{
         }
     }
     
-    img{
-        padding-right:30px;
-    }
     
     p{
         color:#165563;
@@ -292,7 +289,6 @@ ul{
     }
 
     ul{
-        padding:400px;
         margin-left:0;
         margin:20px;
         list-style:none;
@@ -302,13 +298,13 @@ ul{
 }
 
 .summary{ 
-    
-    margin:20px;
+
     padding:20px;
     background-color:#FFFFFF;
 
     
     img{
+
         width:50%;
     }
 
@@ -321,6 +317,7 @@ ul{
     .row{
 
         button{
+            margin-left:35px;
             img{
                 width:10px;
                 margin:5px;
@@ -328,14 +325,18 @@ ul{
 
             }
         }
-        div{
-            padding:5px;
-            border-bottom: 1px solid #D9D9D9
-        }
+        
 
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-areas: none;
+
+        .item-purchased{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-bottom: 1px solid #D9D9D9;
+            padding:15px;
+        }
     }
 
 
@@ -399,6 +400,7 @@ ul{
         font-weight:800;
     }
 
+
     button{
         border-radius: 30px;
         align-self: center;
@@ -411,6 +413,10 @@ ul{
                 background-color: #F4F4F4;
                 transition: 0.5s;
             }
+
+        @include md{
+            padding:5px 15px;
+        }
     }
 }
 
@@ -458,9 +464,9 @@ ul{
 .track{
     background-color:#B1E5ED;
     text-align:center;
-    font-weight:800;
 
     button{
+        font-weight:800;
         margin:20px;
         border-radius: 30px;
         border:1px solid #349EB5;
@@ -488,5 +494,24 @@ ul{
                 transition: 0.5s;
             }
         }
+    }
+}
+
+.final-total{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:none;
+
+    border-top: 1px solid #D9D9D9;
+    p{
+        font-weight:100;
+    }
+    h3{
+        font-weight:100;
+    }
+
+    .eight{
+        font-weight:800;
+        text-align:right;
     }
 }
