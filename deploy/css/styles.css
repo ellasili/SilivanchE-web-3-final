@@ -1073,6 +1073,11 @@ nav ul li:first-child {
   font-size: 16px;
   font-weight: 300;
 }
+@media (min-width: 992px) {
+  .overlay h2 {
+    font-size: 20px;
+  }
+}
 .overlay button {
   border: 1px solid #349EB5;
   background-color: #349EB5;
